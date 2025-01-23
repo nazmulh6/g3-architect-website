@@ -21,6 +21,25 @@
     border: none;
     border-radius: 8px;
 }
+.btn-secondary{
+    background-color: #FF900E;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 25px 30px;
+    
+}
+.btn-title{
+    font-size: 4rem;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.btn-details{
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-top: 0px;
+}
 main{
     max-width: 1440px;
     margin: 0 auto;
@@ -39,7 +58,7 @@ header{
 /* navbar styles */
 .navbar{
     justify-content: space-between;
-    align-items: center;
+   
 }
 /* dark 02 */
 .text-gray{
@@ -111,6 +130,27 @@ header{
 .quick-list{
     font-weight: 400;
 }
+/* feature section related styles */
+#feature-section-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+.feature-will-enjoy{
+   gap: 140px;
+}
+.feature-card{
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+}
+.feature-card .feature-card-title{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 0px;
+   
+}
 /* some fact related styles */
 .facts-container{
     display: grid;
@@ -152,6 +192,19 @@ header{
   }
   .sponsor-companies img{
     filter: grayscale(100%);
+  }
+  footer{
+    background-color: #FFF4E7;
+    max-width: 1440px;
+    max-height: 100px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  .footer-detailes{
+    text-align: center;
+    align-items: center;
+    text-align: center;
   }
 /* responsive media query (small-device) */
 @media screen and (max-width: 576px) {
