@@ -27,7 +27,8 @@
     border: none;
     border-radius: 8px;
     padding: 25px 30px;
-    
+    margin-left: -100px;
+    margin-top: -100px;
 }
 .btn-title{
     font-size: 4rem;
@@ -149,7 +150,9 @@ header{
     font-weight: 600;
     margin-top: 0px;
     margin-bottom: 0px;
-   
+}
+.featured-architect{
+    width: 100%;
 }
 /* some fact related styles */
 .facts-container{
@@ -210,8 +213,13 @@ header{
 @media screen and (max-width: 576px) {
     .navbar, 
     .nav-links, 
+    .feature-will-enjoy,
     .teams{
         flex-direction: column;
+    }
+    .btn-secondary{
+        margin-top: 20px;
+        margin-left: 20px;
     }
     .our-features, .some-facts{
         margin-left: 20px;
@@ -234,7 +242,7 @@ header{
 }
 /* responsive media query (medium-device) */
 @media screen and (min-width: 576px) and (max-width: 992px) {
-    .teams{
+    .teams,.feature-will-enjoy{
         flex-direction: column;
     }
     .sponsor-companies,  .facts-container{
@@ -244,5 +252,9 @@ header{
     }
     .some-fact-div{
         justify-items: center;
+    }
+    .btn-secondary{
+        margin-top: 20px;
+        margin-left: 20px;
     }
 }
